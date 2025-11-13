@@ -68,7 +68,8 @@ namespace C_Aplicacion.ViewModels
             Nombre = string.Empty;
             Apellido = string.Empty;
 
-            MessageBox.Show("Alumno agregado correctamente.", "Éxito", MessageBoxButton.OK, MessageBoxImage.Information);
+            MessageBox.Show("Alumno agregado correctamente.", "Éxito", 
+                MessageBoxButton.OK, MessageBoxImage.Information);
 
         }
     }
